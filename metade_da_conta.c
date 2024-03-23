@@ -3,10 +3,10 @@
  * Preencha seus dados e leia a declaração de honestidade abaixo. NÃO APAGUE
  * nenhuma linha deste comentário de seu código!
  *
- *    Nome completo:
- *    Matrícula:
- *    Turma:
- *    Email:
+ *    Nome completo: Caio Drumond de Abreu Rebouças
+ *    Matrícula: 202416622
+ *    Turma: CC1Mb
+ *    Email: caio.reboucas@outlook.com
  *
  * DECLARAÇÃO DE HONESTIDADE ACADÊMICA:
  * Eu afirmo que o código abaixo foi de minha autoria. Também afirmo que não
@@ -57,6 +57,7 @@ int main(void)
     // TODO: coloque aqui seu código para o cálculo do valor da conta.
     // Não se esqueça de imprimir o valor final conforme especificado na
     // descrição do exercício.
+    //Calcula e imprime o valor total
     float total = comida * (1 + impostos * 0.01) * (1 + gorjeta * 0.01);
     {
         printf("Cada um pagará R$ %.2f!\n", total / 2);
